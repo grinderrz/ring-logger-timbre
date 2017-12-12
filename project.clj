@@ -5,7 +5,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :deploy-repositories [["releases" :clojars]]
   :dependencies [[org.clojure/clojure "1.6.0"]
-                 [ring-logger "0.7.7"]
+                 [ring-logger "0.7.8-SNAPSHOT"]
                  [com.taoensso/timbre "4.10.0"]]
   :profiles {:1.6 {:dependencies [[org.clojure/clojure "1.6.0"]]}
              :1.7 {:dependencies [[org.clojure/clojure "1.7.0"]]}
